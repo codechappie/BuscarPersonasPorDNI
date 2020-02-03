@@ -134,7 +134,7 @@
         grid-column: 2/3;
     }
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 420px){
     .person__details{
         grid-template-columns: 1fr;
     }

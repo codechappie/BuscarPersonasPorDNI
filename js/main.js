@@ -35,8 +35,9 @@ function consultingNewPersonPerDNI(newDni){
         fatherSurname.innerHTML=data.apellidoPaterno;
         motherSurname.innerHTML=data.apellidoMaterno;
         name.innerHTML=data.nombres;
+        alert(`Se encontró a ${data.nombres}`);
     }).catch((err)=>{
-        alert(err)
+        alert("Vaya ocurrio un error :( ");
         noneData();
     });
 }
