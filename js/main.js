@@ -36,7 +36,7 @@ function consultingNewPersonPerDNI(newDni){
         motherSurname.innerHTML=data.apellidoMaterno;
         name.innerHTML=data.nombres;
     }).catch((err)=>{
-        console.log(err);
+        alert(err)
         noneData();
     });
 }
