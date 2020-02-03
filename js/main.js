@@ -20,7 +20,7 @@ window.onload = ()=>{
 
 function consultingNewPersonPerDNI(newDni){
     console.log(newDni)
-    const url = `http://dniruc.apisperu.com/api/v1/dni/${newDni}?token=${key}`; 
+    const url = `https://dniruc.apisperu.com/api/v1/dni/${newDni}?token=${key}`; 
     fetch(url)
     .then((response)=>{
         if(response.ok){
